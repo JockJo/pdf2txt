@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+'''
 from pdfminer.pdfparser import PDFParser
 from pdfminer.pdfdocument import PDFDocument
 from pdfminer.pdfpage import PDFPage
@@ -42,4 +44,5 @@ for page in PDFPage.create_pages(document):
 #interpreter = PDFPageInterpreter(rsrcmgr, device)
 # Process each page contained in the document.
 #for page in PDFPage.create_pages(document):
-#    interpreter.process_page(page)
+#interpreter.process_page(page)
+'''
